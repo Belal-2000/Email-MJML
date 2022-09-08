@@ -1,0 +1,143 @@
+<mjml>
+    <mj-head>
+        <mj-title>Welcome Mail</mj-title>
+    </mj-head>
+    <mj-body>
+        <!-- Company Header -->
+        <mj-section background-color="#f0f0f0">
+            <mj-column>
+                <mj-text align="left" font-size="20px" color="#626262">
+                    Advice me
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Image Header -->
+        <mj-section
+            background-color="#f0f0f0"
+            background-url="https://source.unsplash.com/user/c_v_r/1900x800"
+            background-size="cover"
+            background-repeat="no-repeat"
+        >
+            <mj-column width="600px">
+                <mj-text
+                    align="center"
+                    color="#fff"
+                    font-size="40px"
+                    font-family="Helvetica Neue"
+                >
+                    Make your life better
+                </mj-text>
+
+                <mj-button background-color="#F63A4D" href="#">
+                    Know more
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Introduction Text -->
+        <mj-section background-color="#fafafa">
+            <mj-column width="400px">
+                <mj-text
+                    font-size="20px"
+                    font-family="Helvetica Neue"
+                    color="#626262"
+                    >small paragraph</mj-text
+                >
+
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin rutrum enim eget magna efficitur, eu semper augue
+                    semper. Aliquam erat volutpat. Cras id dui lectus.
+                    Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin
+                    nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis
+                    faucibus.
+                </mj-text>
+
+                <mj-button background-color="#F45E43" href="#"
+                    >Read more</mj-button
+                >
+            </mj-column>
+        </mj-section>
+
+        <!-- 2 columns section -->
+        <mj-section background-color="white">
+            <!-- Left image -->
+            <mj-column>
+                <mj-image
+                    width="200px"
+                    src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg"
+                />
+            </mj-column>
+
+            <!-- right paragraph -->
+            <mj-column>
+                <mj-text
+                    font-size="20px"
+                    font-family="Helvetica Neue"
+                    color="#626262"
+                >
+                    Our Privacy
+                </mj-text>
+
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Proin rutrum enim eget magna efficitur, eu semper augue
+                    semper. Aliquam erat volutpat. Cras id dui lectus.
+                    Vestibulum sed finibus lectus.
+                </mj-text>
+                <mj-button background-color="#F45E43" href="#">
+                    Read more
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Icons -->
+        <mj-section background-color="#fbfbfb">
+            <mj-column>
+                <mj-image
+                    width="100px"
+                    src="https://191n.mj.am/img/191n/3s/x0l.png"
+                />
+            </mj-column>
+            <mj-column>
+                <mj-image
+                    width="100px"
+                    src="https://191n.mj.am/img/191n/3s/x01.png"
+                />
+            </mj-column>
+            <mj-column>
+                <mj-image
+                    width="100px"
+                    src="https://191n.mj.am/img/191n/3s/x0s.png"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- Social icons -->
+        <mj-section background-color="#f0f0f0">
+            <mj-column>
+                <mj-text font-size="16px" padding="20px">
+                    Our Social Media platforms :
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-social
+                    font-size="15px"
+                    icon-size="30px"
+                    mode="horizontal"
+                    align="left"
+                >
+                    <mj-social-element name="facebook" href="https://mjml.io/">
+                        <!-- Facebook -->
+                    </mj-social-element>
+                    <mj-social-element name="google" href="https://mjml.io/">
+                        <!-- Google -->
+                    </mj-social-element>
+                    <mj-social-element name="twitter" href="https://mjml.io/">
+                        <!-- Twitter -->
+                    </mj-social-element>
+                </mj-social>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

@@ -1,0 +1,16 @@
+{
+  "name": "emailtemplatelangtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Email:build" : "mjml -r index.mjml -o dist\\email.html",
+    "Email:watch" : "mjml --watch index.mjml -o dist\\email.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.13.0"
+  }
+}
