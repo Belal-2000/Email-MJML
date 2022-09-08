@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Email:build" : "mjml -r index.mjml -o dist\\email.html",
-    "Email:watch" : "mjml --watch index.mjml -o dist\\email.html"
+    "Email:build" : "mjml -r index.mjml -o index.html",
+    "Email:watch" : "mjml --watch index.mjml -o index.html"
   },
   "keywords": [],
   "author": "",
